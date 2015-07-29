@@ -8,5 +8,3 @@ main.ftl's main purpose is embed the canvas, new game button, and board in the h
 
 Known Bugs:
 This isn't a bug se, but when displaying the tiles labels I have to increment height (j) by one. "ctx.fillText(board.grid[i][j].label,i*vcW,(j+1)*vcH);". I'm not sure why I have to increment height (j) by one, but not width (i). Note that vcW and vcH are both 20 in the 16 x 16 squares on a 320 x 320 canvas case.
-
-CheckStyle Errors: I have 143 errors left. I don't think all of them are things that matter. Trailing whitespace aren't bad as they're invisible and don't affect the program. I also don't see the need to declare passed in arguments or methods as final as I don't mind if someone who needs to change them changes them in the future. 
